@@ -176,12 +176,12 @@ people of Nagpur.
 
 **Mohammad Ammar**
 
-<theammarngp@gmail.com>\| Nagpur, Maharashtra
+<theammarngp@gmail.com>\| Nagpur,Maharashtra
 
 **Zahid Khan**
 
-<zahidkhan18100@gmail.com>**\|** [Nagpur ,Maharashtra]
+<zahidkhan18100@gmail.com>\|Nagpur,Maharashtra
 
-[Ruwaifa Ansari]
+**Ruwaifa Ansari**
 
-[Nagpur\|Maharashtra]
+<ruwaifa2007@gmail.com>\|Nagpur,MaharashtraNagpur,Maharashtra
