@@ -68,15 +68,19 @@ NagpurLens is built on documented, verified, and legally reusable data collected
 - **Locality ID standard:** XXX format, alphabetically assigned, consistent across every table and every document in this repository.
 - **Haversine validation:** Every infrastructure record's locality assignment verified using haversine nearest-centroid algorithm. Zero orphan records.
 
-### Five Derived KPIs
-1. **Infrastructure Density Index (IDI):** Total infra count per km² — measures coverage.
-2. **Healthcare Accessibility Score (HAS):** Weighted count of hospitals and clinics — measures health infrastructure.
-3. **Metro Influence Index (MII):** Inverse distance to nearest operational metro station — measures connectivity.
-4. **Growth Signal Index (GSI):** Composite of new construction signals and infrastructure investment — measures momentum.
-5. **Investment Attractiveness Score (IAS):** The weighting methodology is versioned and may evolve based on validation, expert review, and empirical evaluation. Every revision will be
- documented.
+### Six Derived KPIs
+
+Every KPI is tagged with the version that introduces it. A KPI is only "live" — computed, published, and reliable for any dashboard, API, or document to depend on — once its version has shipped.
+
+1. **Infrastructure Density Index (IDI)** — *v1.0.* Total infrastructure count per km² — measures coverage.
+2. **Population-Infrastructure Ratio (PIR)** — *v1.0.* Infrastructure count per capita against the Census 2011 baseline — measures adequacy relative to population, distinct from IDI's area-based measure.
+3. **Healthcare Accessibility Score (HAS)** — *v1.0.* Weighted count of hospitals and clinics per locality. Computable entirely from the Version 1 infrastructure table.
+4. **Metro Influence Index (MII)** — *v1.0.* Inverse distance to the nearest operational metro station. Computable entirely from the Version 1 infrastructure table.
+5. **Growth Signal Index (GSI)** — *v2.0.* Composite of construction activity, metro proximity, and infrastructure investment trends. Population movement is added once a documented locality-level source exists; until then it's a deferred input, not a release blocker.
+6. **Investment Attractiveness Score (IAS)** — *v3.0.* Composite of infrastructure health (IDI, PIR), accessibility (HAS), connectivity (MII), and growth trajectory (GSI). Weighting is versioned and may evolve based on validation, expert review, and empirical evaluation; every revision is documented.
 
 All KPI methodologies are version-controlled and reproducible.
+
 ---
 
 ## 5. What Makes NagpurLens Different
@@ -163,7 +167,6 @@ Every public claim made by NagpurLens must be traceable to documented evidence, 
 | **v0.1** | Data foundation — localities + infra tables, schema, validation | Data exists and is trustworthy |
 | **v0.2** | Analytics engine — KPI computation, ranked outputs | Which localities score highest/lowest |
 | **v0.3** | Public product — Streamlit dashboard, FastAPI, website | Anyone can explore the data |
-| **v0.4** | Real estate data layer — price trends, transaction signals | Where is money moving |
 | **v1.0** | Full Version 1 — Infrastructure Intelligence Platform for Nagpur | Where does infra lag vs population |
 | **v2.0** | Growth Intelligence — growth signal modeling | Which localities are growing |
 | **v3.0** | Investment Intelligence — Investment Attractiveness Score | Where should you invest |
