@@ -1,6 +1,7 @@
 # NagpurLens — Problem Statement
 
 > **Authors:** Mohammad Ammar  · Zahid Khan · Mohammad Ruwaifa
+
 > **Document Status:** Foundational — derived from `VISION.md`. Every claim here is traceable to that document. Nothing here contradicts it.
 > **Version:** v1.0
 > **Last Updated:** July 2026
