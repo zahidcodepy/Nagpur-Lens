@@ -1,8 +1,10 @@
 # NagpurLens — Vision
 
 > **Authors:** Mohammad Ammar · Zahid Khan  · Mohammad Ruwaifa
+
 > **Document Status:** Foundational — every other document in this repository must remain consistent with this one. If a future decision cannot be justified by this document, it is scope creep until this document itself is deliberately revised.
 > **Version:** v1.0
+
 > **Last Updated:** July 2026
 
 ---
