@@ -42,7 +42,7 @@ Without this data:
 - A researcher cannot study Nagpur's civic equity with locality-level precision
 - An investor cannot identify which underserved localities are positioned for infrastructure catch-up
 
-**What is missing:** A verified, locality-level dataset mapping infrastructure supply against population demand — producing a quantified Infrastructure Gap Score for every locality in Nagpur.
+**What is missing:** A verified, locality-level dataset mapping infrastructure supply against population demand — producing a quantified Infrastructure Density Index (IDI) and Population-Infrastructure Ratio (PIR) for every locality in Nagpur.
 
 **Version 1 addresses this problem.**
 
@@ -57,7 +57,7 @@ Without this data:
 - A builder cannot identify where demand is forming before supply catches up
 - A homebuyer cannot distinguish between a locality that looks affordable because it is growing versus one that looks affordable because it is declining
 
-**What is missing:** A verified, locality-level dataset mapping infrastructure supply against population demand — producing a quantified Infrastructure Density Index (IDI) and Population-Infrastructure Ratio (PIR) for every locality in Nagpur.
+**What is missing:** A Growth Signal Index that combines construction activity, metro proximity, infrastructure investment trends, and population movement into a single ranked output per locality.
 
 **Version 2 addresses this problem.**
 
